@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 const int led = 0;
-const int sleep = 100;
+const int sleep = 1000;
 
 // the setup routine runs once when you press reset:
 void setup() {
@@ -15,4 +15,5 @@ void loop() {
   delay(sleep);            // wait for a second
   digitalWrite(led, LOW);  // turn the LED off by making the voltage LOW
   delay(sleep);            // wait for a second
+  
 }
